@@ -1,0 +1,19 @@
+# Go specific
+*.exe
+*.log
+*.test
+*.DS_Store
+bin/
+obj/
+vendor/
+go.sum
+.idea/
+.vscode/
+*.swp
+*~
+__debug*
+
+# Windows/Darwin/Linux binaries
+/windows/*.exe
+/darwin/*
+/linux/*
