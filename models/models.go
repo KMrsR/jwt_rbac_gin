@@ -1,9 +1,10 @@
 package models
 
+var JwtKey = []byte("SecretKey")
+
 const (
 	RoleAdmin = "admin"
 	RoleUser  = "user"
-	JwtKey    = "SecretKey"
 )
 
 type User struct {
